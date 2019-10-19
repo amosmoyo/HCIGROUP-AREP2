@@ -1,0 +1,25 @@
+[debug] [2019-10-19T15:53:01.745Z] ----------------------------------------------------------------------
+[debug] [2019-10-19T15:53:01.748Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PROBOOK 440\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-10-19T15:53:01.748Z] CLI Version:   7.5.0
+[debug] [2019-10-19T15:53:01.748Z] Platform:      win32
+[debug] [2019-10-19T15:53:01.748Z] Node Version:  v10.16.0
+[debug] [2019-10-19T15:53:01.749Z] Time:          Sat Oct 19 2019 18:53:01 GMT+0300 (East Africa Time)
+[debug] [2019-10-19T15:53:01.749Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-19T15:53:01.763Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-19T15:53:01.764Z] > authorizing via signed-in user
+[debug] [2019-10-19T15:53:01.764Z] [iam] checking project amosmoyo2-52c4b for permissions ["firebase.projects.get"]
+[debug] [2019-10-19T15:53:01.766Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/amosmoyo2-52c4b:testIamPermissions  
+
+[debug] [2019-10-19T15:53:04.229Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-19T15:53:04.238Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/amosmoyo2-52c4b  
+ 
+[debug] [2019-10-19T15:53:04.951Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\PROBOOK 440\Desktop\PlauralWork\angular\Debora\newpro\HCIGROUP-A'...
+[info] 
+[debug] [2019-10-19T15:53:05.003Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/amosmoyo2-52c4b/webApps/-/config  
+ 
+[debug] [2019-10-19T15:53:05.816Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/AngularProject
+[info] +  hosting: Local server: http://localhost:5000
