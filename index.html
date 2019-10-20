@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Angular Getting Started</title>
-    <base href="https://amosmoyo.github.io/HCIGROUP-AREP2.git/">
+    <base href="https://amosmoyo.github.io/HCIGROUP-AREP2/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -13,6 +13,19 @@
     />
   <link rel="stylesheet" href="styles.3dc57724e29509e6d946.css"></head>
   <body>
+      <script>
+          (function () {
+            // Retrieve the URL the user was trying to access when receiving the 404.
+            var redirect = sessionStorage.redirect;
+            // Remove the URL from sessionStorage.
+            delete sessionStorage.redirect;
+            // Check if we actually need to redirect.
+            if (redirect && redirect != location.href) {
+              // We need to redirect to the URL the user was trying to access.
+              history.replaceState(null, null, redirect);
+            }
+          })();
+    </script>
     <app-root></app-root>
   <script src="runtime-es2015.b948044840398824f16e.js" type="module"></script><script src="runtime-es5.b948044840398824f16e.js" nomodule defer></script><script src="polyfills-es5.9a396632a71663576dcc.js" nomodule defer></script><script src="polyfills-es2015.8924ae603b83baa28213.js" type="module"></script><script src="main-es2015.3a21a489feed62b7b461.js" type="module"></script><script src="main-es5.3a21a489feed62b7b461.js" nomodule defer></script></body>
 </html>
